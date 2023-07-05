@@ -1,0 +1,113 @@
+body > main.site-main {
+    min-height: calc(100vh - 208px);
+}
+
+body section.container-page-width {
+    align-items: end;
+}
+
+.container-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+    width: 100%;
+}
+
+.index-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-top: 56px;
+    width: 100%;
+}
+.index-title h3 {
+    font-size: 32px;
+}
+.index-title p {
+    font-size: 20px;
+    color: var(--color-body-text-secondary);
+}
+.index-title .link-last-news {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container-post-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.post-card-wrapper {
+    display: flex;
+    gap: 32px;
+    margin: 24px 0 24px 0;
+}
+.post-card {
+    background-color: var(--color-card-background);
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #111;
+}
+.container-post-card img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 200px;
+    width: 274px;
+    object-fit: cover;
+}
+.post-card .post-date {
+    font-size: 14px;
+    color: var(--color-body-text-secondary);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.post-card h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 20px 20px;
+}
+
+.post-card button {
+    width: 100px;
+    height: 25px;
+    margin: 0 87px;
+    background-color: var(--color-menu-background-primary);
+    color: var(--color-menu-text);
+    border: none;
+    border-radius: 5px;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pagination .page-numbers:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination .page-numbers:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.pagination .page-numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-menu-background-primary);
+    color: var(--color-menu-text);
+    height: 48px;
+    width: 48px;
+}
+
+.pagination .page-numbers.current {
+    background-color: var(--color-body-text-secondary);
+}

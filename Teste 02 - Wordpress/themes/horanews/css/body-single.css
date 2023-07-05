@@ -1,0 +1,36 @@
+body main .index {
+    min-height: calc(100vh - 208px);
+}
+
+body section.container-page-width {
+    align-items: initial;
+}
+
+main .index .thumbnail-image {
+    margin: 30px 0;
+}
+
+main .index .thumbnail-image img {
+    max-height: 400px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.index header h1 {
+    font-size: 36px;
+    margin: 20px;
+}
+
+.index p {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.index p br {
+    margin-bottom: 10px;
+}
+
+.index article {
+    margin-bottom: 20px;
+}
