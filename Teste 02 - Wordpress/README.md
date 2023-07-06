@@ -4,8 +4,8 @@ A seguir serão mostradas algumas das funcionalidades do tema criado.
 
 - Aparência do tema.
 
-![Screenshot](https://raw.githubusercontent.com/brunoamaia/pokedex-react/add-new-nucleogover-dev/Teste_02_-_Wordpress/assets/thumbnail.png)
+![Screenshot](https://github.com/brunoamaia/add-new-nucleogover-dev/blob/master/Teste%2002%20-%20Wordpress/assets/thumbnail.png?raw=true)
 
 - Comportamento.
 
-![Screenshot](https://raw.githubusercontent.com/brunoamaia/pokedex-react/add-new-nucleogover-dev/Teste_02_-_Wordpress/assets/comportamento.gif)
+![Screenshot](https://github.com/brunoamaia/add-new-nucleogover-dev/blob/master/Teste%2002%20-%20Wordpress/assets/comportamento.gif?raw=true)
